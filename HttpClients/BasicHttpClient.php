@@ -1,6 +1,6 @@
 <?php
 
-namespace HTTP\HttpClients;
+namespace Valter\HttpClient;
 
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Client\ClientInterface;
@@ -11,8 +11,14 @@ use Psr\Http\Message\ResponseInterface;
 class BasicHttpClient implements ClientInterface
 {
 
+    /**
+     * @var ClientInterface $client
+     */
     private $client;
 
+    /**
+     * @var RequestFactoryInterface $requestFactory
+     */
     private $requestFactory;
 
     public function __construct(
