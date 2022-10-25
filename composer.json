@@ -1,0 +1,18 @@
+{
+    "name": "valter/http-client-abstraction",
+    "description": "Abstraction Http Client",
+    "type": "lib",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "valter.tonon",
+            "email": "valter.tonon@climba.com.br"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-factory": "^1.0"
+    }
+}
