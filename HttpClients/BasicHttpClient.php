@@ -1,6 +1,6 @@
 <?php
 
-namespace Valter\HttpClient;
+namespace HttpClient;
 
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Client\ClientInterface;
